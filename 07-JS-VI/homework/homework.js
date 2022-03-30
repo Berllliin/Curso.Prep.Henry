@@ -69,9 +69,9 @@ function filter(array) {
   }
   return nuevoArray;
   /*var xx = array.map(function(elemento){
-    if (this.charAt(0)==="a"){
-      xx+= elemento;
-      return cb(xx);
+    for (let i=0; i<array.length; i++){
+      if (array[i][0]==="a"){
+        return cb(xx);}
     }
   });
   return xx;*/
